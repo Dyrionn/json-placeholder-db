@@ -1,14 +1,22 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "title": "Post containing just text" },
+    { "id": 2, "title": "This one have at least 1 number to try parse it" },
+    { "id": 3, "title": "The valuable ($$$) inclusion of special characters just for number #01 test" },
+    { "id": 4, "title": "The next one will have just 55 blank spaces" },
+    { "id": 5, "title": "                                                       " },
+    { "id": 6, "title": "&*()$$-786551-batman" },
+    { "id": 7, "title": "THE END"}
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "simply test strings", "postId": 1 },
+    { "id": 2, "body": "maybe here we can try some substrings", "postId": 2 },
+    { "id": 3, "body": "something or some crazy app could break, lets try", "postId": 3 },
+    { "id": 4, "body": "lets make some tests on this one", "postId": 3 },
+    { "id": 5, "body": "for splits, substrings or crazy treatments", "postId": 6 },
+    { "id": 6, "body": "3 parts containing 6 characters each", "postId": 6 }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "dyrionn"
   }
 }
